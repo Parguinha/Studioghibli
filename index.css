@@ -1,0 +1,182 @@
+@font-face {
+    font-family: 'ghibli-font';
+    src: url(font/Ghibli-Font/Eyad\ Al-Samman\ -\ Ghibli-Bold.otf);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'ghibli-font';
+    text-decoration: none;
+}
+ 
+body{
+    height: 100vh;
+    background: lightblue;
+    width: 100vw;
+    
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.caixona{
+    height: 100vh;
+    width: 100vw;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+}
+main{
+    scroll-snap-align: start;
+    scroll-snap-stop:always ;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    box-sizing: border-box;
+}
+main p{
+    padding: 10px;
+    text-align: center;
+    font-size: 1em;
+    color: white;
+    background: rgba(0, 0, 0, 0.459);
+}
+#primeiro-main{
+    background: url(imagens/1c7cd5381a0f907dbc311400f5b6805e.jpg) no-repeat;
+    background-position: center right;
+    background-size: cover;
+}
+#segundo-main{
+    background: url(imagens/4492722cf88a75cf7f28e742dc9b2240.jpg) no-repeat;
+    background-position: center center ;
+    background-size: cover;
+}
+#terceiro-main{
+    background: url(imagens/bc880d2271cd34fa1abb43ca411b3c1c.jpg) no-repeat;
+    background-position: center right ;
+    background-size: cover;
+}
+#quarto-main{
+    background: url(imagens/0c3732363dbb043b574c9b3e671596ad.jpg) no-repeat;
+    background-position: center center ;
+    background-size: cover;
+}
+#quinto-main{
+    background: url(imagens/5cbbb2959e618ff44c83dab3b32a2b51.jpg) no-repeat;
+    background-position: center center ;
+    background-size: cover;
+}
+#sexto-main{
+    background: url(imagens/c77b295e3546a2f3eca16c666449d86d.jpg) no-repeat;
+    background-position: center center ;
+    background-size: cover;
+}
+#setimo-main{
+    background: url(imagens/04ec4acc898ffeb07a4074b95a80d3af.jpg) no-repeat;
+    background-position: center right ;
+    background-size: cover;
+}
+#oitavo-main{
+    background: url(imagens/5a7f79113b1716043451100fba30bfa3.jpg) no-repeat;
+    background-position: center center ;
+    background-size: cover;
+}
+#nono-main{
+    background: url(imagens/8a74f362acca51bca105435f5c80637a.jpg) no-repeat;
+    background-position: center center ;
+    background-size: cover;
+}
+#decimo-main{
+    background: url(imagens/23d8485ad0835af2b32391984271da1f.jpg) no-repeat;
+    background-position: center center ;
+    background-size: cover;
+}
+#decimo-primeiro-main{
+    background: url(imagens/1ed68d841bb3e16607fb6c21aacf546a.jpg) no-repeat;
+    background-position: center right ;
+    background-size: cover;
+}
+#decimo-segundo-main{
+    background: url(imagens/58ede18f895fcda8d68bf24084e48931.jpg) no-repeat;
+    background-position: center center ;
+    background-size: cover;
+}
+
+@media (min-width:500px){
+  
+    main p{
+        width: 500px;
+        font-size: 1.5em;
+    }
+    #primeiro-main{
+        background: url(imagens/wallpaperflare.com_wallpaper\ \(10\).jpg);
+        background-position: center center;
+        background-size: cover;
+    }
+    #segundo-main{
+        background: url(imagens/wallpaperflare.com_wallpaper\ \(11\).jpg) no-repeat;
+        background-position: center center ;
+        background-size: cover;
+    }
+    #terceiro-main{
+        background: url(imagens/wallpaperflare.com_wallpaper\ \(2\).jpg) no-repeat;
+        background-position: center center ;
+        background-size: cover;
+    }
+    #quarto-main{
+        background: url(imagens/wallpaperflare.com_wallpaper\ \(5\).jpg) no-repeat;
+        background-position: center center ;
+        background-size: cover;
+    }
+    #quinto-main{
+        background: url(imagens/wallpaperflare.com_wallpaper\ \(7\).jpg) no-repeat;
+        background-position: center center ;
+        background-size: cover;
+    }
+    #sexto-main{
+        background: url(imagens/wallpaperflare.com_wallpaper\ \(9\).jpg) no-repeat;
+        background-position: center center ;
+        background-size: cover;
+    }
+    #setimo-main{
+        background: url(imagens/wallpaperflare.com_wallpaper\ \(8\).jpg) no-repeat;
+        background-position: center center;
+        background-size: cover;
+    }
+    #oitavo-main{
+        background: url(imagens/wallpaperflare.com_wallpaper\ \(6\).jpg) no-repeat;
+        background-position: center center ;
+        background-size: cover;
+    }
+    #nono-main{
+        background: url(imagens/wallpaperflare.com_wallpaper\ \(3\).jpg) no-repeat;
+        background-position: center center ;
+        background-size: cover;
+    }
+    #decimo-main{
+        background: url(imagens/wallpaperflare.com_wallpaper.jpg) no-repeat;
+        background-position: center center ;
+        background-size: cover;
+    }
+    #decimo-primeiro-main{
+        background: url(imagens/wallpaperflare.com_wallpaper\ \(4\).jpg) no-repeat;
+        background-position: center center ;
+        background-size: cover;
+    }
+    #decimo-segundo-main{
+        background: url(imagens/wallpaperflare.com_wallpaper\ \(1\).jpg) no-repeat;
+        background-position: center center ;
+        background-size: cover;
+    }
+}
+#main-footer{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
